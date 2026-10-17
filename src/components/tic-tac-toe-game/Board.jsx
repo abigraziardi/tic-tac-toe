@@ -1,5 +1,5 @@
 import Square from "./Square";
-import checkWinner from "./checkWinner";
+import { checkWinner } from "../../scripts/checkWinner";
 
 export default function Board({
   squares,

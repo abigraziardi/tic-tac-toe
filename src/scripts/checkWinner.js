@@ -1,4 +1,4 @@
-export default function checkWinner(squares) {
+export const checkWinner = (squares) => {
   const winLines = [
     [0, 1, 2],
     [3, 4, 5],
@@ -16,4 +16,4 @@ export default function checkWinner(squares) {
     }
   }
   return null;
-}
+};

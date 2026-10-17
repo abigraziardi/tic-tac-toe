@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Board from "../../components/tic-tac-toe-game/Board";
-import checkWinner from "../../components/tic-tac-toe-game/checkWinner";
 import HistoryList from "../../components/tic-tac-toe-game/HistoryList";
+import { checkWinner } from "../../scripts/checkWinner";
 
 export default function Main() {
   const [gameMode, setGameMode] = useState("pvp");
